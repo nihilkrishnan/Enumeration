@@ -1,4 +1,4 @@
-# Enumeration
+# EX-3 Enumeration
 Enumeration Techniques
 
 # Explore Google hacking and enumeration 
@@ -33,21 +33,38 @@ Google hacking, also known as Google dorking, is a technique that involves using
 site: This operator allows you to search for pages that are within a specific website or domain. For example, "site:example.com" would search for pages that are on the example.com domain.
 Following searches for all the sites that is in the domain yahoo.com
 
+![image](https://github.com/Darkwebnew/Enumeration/assets/143114486/ba2e79df-f011-4277-a237-c17babfab84f)
+
+
 filetype: This operator allows you to search for files of a specific type. For example, "filetype:pdf" would search for all PDF files.
 Following searches for pdf file in the domain yahoo.com
+
+![image](https://github.com/Darkwebnew/Enumeration/assets/143114486/1d5611f6-83fa-4e83-a522-a991128a8f8f)
 
 
 
 intext: This operator allows you to search for pages that contain specific text within the body of the page. For example, "intext:password" would search for pages that contain the word "password" within the body of the page.
 
+![image](https://github.com/Darkwebnew/Enumeration/assets/143114486/92745d42-79b2-43cf-ac12-3fa33b921be2)
+
 
 inurl: This operator allows you to search for pages that contain specific text within the URL. For example, "inurl:admin" would search for pages that contain the word "admin" within the URL.
 
+![image](https://github.com/Darkwebnew/Enumeration/assets/143114486/ea7a45fb-7c46-4e25-acb4-a841928b8ae5)
+
 intitle: This operator allows you to search for pages that contain specific text within the title tag. For example, "intitle:index of" would search for pages that contain "index of" within the title tag.
+
+![image](https://github.com/Darkwebnew/Enumeration/assets/143114486/37d6e585-c993-4c8e-98d1-e1e56a658af3)
+
 
 link: This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
 
+![image](https://github.com/Darkwebnew/Enumeration/assets/143114486/dfaa8421-7515-46aa-9f13-dc25b5bbac9f)
+
+
 cache: This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
+
+![image](https://github.com/Darkwebnew/Enumeration/assets/143114486/4392c7af-7a9f-45d0-9580-5b4875f690e8)
 
  
 #DNS Enumeration
@@ -60,6 +77,10 @@ Enumerate general DNS records for a given domain (MX, SOA, NS, A, AAAA, SPF , TX
 Perform common SRV Record Enumeration
 Top level domain expansion
 ## OUTPUT:
+
+![image](https://github.com/Darkwebnew/Enumeration/assets/143114486/5184f71e-5cb9-4a51-bf7b-ae0793ce2012)
+
+![image](https://github.com/Darkwebnew/Enumeration/assets/143114486/b918c3cd-514e-4cdb-bc8e-51e5d7d8b402)
 
 
 
@@ -81,14 +102,23 @@ Perform reverse lookups on netranges (C class or/and whois netranges) (threaded)
 Write to domain_ips.txt file ip-blocks.
 This program is useful for pentesters, ethical hackers and forensics experts. It also can be used for security tests.
 
+![image](https://github.com/Darkwebnew/Enumeration/assets/143114486/1b1ffd94-0b4f-4578-bc35-b6658aead843)
+
 
 ##smtp-user-enum
 Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO.
 
+![image](https://github.com/Darkwebnew/Enumeration/assets/143114486/b97e59ce-b899-41a0-aaf4-27c62f52ac9b)
+
 
 In metasploit list all the usernames using head /etc/passwd or cat /etc/passwd:
 
+![WhatsApp Image 2024-03-18 at 21 09 17_519439f2](https://github.com/Darkwebnew/Enumeration/assets/143114486/5165eeb3-0a0e-48b5-8eb8-f50b930b00e9)
+
 select any username in the first column of the above file and check the same
+
+![image](https://github.com/Darkwebnew/Enumeration/assets/143114486/3f33d9ca-ff9a-4a51-a2af-20e38b8f1c8a)
+
 
 
 #Telnet for smtp enumeration
@@ -98,7 +128,8 @@ and issue appropriate commands
   
  ##Output
   
-  
+  ![image](https://github.com/Darkwebnew/Enumeration/assets/143114486/733bd7ea-f085-4580-80e3-c8a7f6e5d451)
+
 
 ## nmap –script smtp-enum-users.nse <hostname>
 
@@ -107,6 +138,7 @@ The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server 
 
 ## OUTPUT:
 
+![image](https://github.com/Darkwebnew/Enumeration/assets/143114486/ec3b912f-07e5-49fc-9d56-e7c97d611380)
 
 ## RESULT:
 The Google hacking keywords and enumeration tools were identified and executed successfully
